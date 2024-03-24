@@ -1,0 +1,96 @@
+.services{
+    background: linear-gradient(180deg, #0c0c1d, #111132);
+    height: 100%;
+}
+
+.titleContainer1 {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    padding: 80px;
+    
+}
+
+
+.titleContainer1 .stars {
+    background-image: url("/stars.png");
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+    margin: 50px;
+
+}
+
+.title h1{
+    font-size: 60px;
+    color: orange;
+    
+}
+.title h2{
+    font-size: 25px;
+    color: white;
+    
+}
+.title h2:nth-child(2){
+    font-size: 20px;
+    color: rgb(160, 160, 160);
+    
+}
+
+.aboutdis{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.titleContainer1 .hero-img img{
+    width: 330px;
+    margin-top: 80px;
+
+}
+
+@media screen and (max-width: 768px) {
+    .titleContainer1{
+        flex-direction: column;
+        padding: 5px;
+    }
+    .titleContainer1 .hero-img img{
+        width: 200px;
+        height: 200px;
+        margin-top: 60px;
+    }
+    .aboutdis h2{
+        font-size: 5px;
+    }
+    .title h1{
+        font-size: 30px;
+        color: orange;
+        
+    }
+    .title h2{
+        font-size: 25px;
+        color: white;
+        
+    }
+    .title h2:nth-child(2){
+        font-size: 14px;
+        color: rgb(160, 160, 160);
+        
+    }
+    .title{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 10px;
+        margin: 10px;
+    
+    }
+}
